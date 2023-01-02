@@ -136,7 +136,7 @@ Deberías ver algo parecido a estas líneas:
 
 Esto nos dice que tenemos un archivo que ha cambiado, pero todavía no ha sido guardado en el historial de git.
 
-Para hacer esto, usaremos el comando "add":
+Para hacer esto, usaremos el comando "add": 
 
 
 ```bash
