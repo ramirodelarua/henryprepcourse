@@ -1,0 +1,20 @@
+En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+ * Variables
+ * Strings
+ * Funciones (argumentos, `return`)
+ * Declaraciones `if`
+ * Valores booleanos (`true`, `false`)
+
+
+ // Variables: Son lugares donde se guarda información de diferentes tipos, con un nombre asignado por nosotros, y se puede acceder a dicha información llamándola por su nombre.
+
+ // Strings: Es un tipo de dato compuesto por caracteres, que se escribe entre ' y que se puede guardar en una variable.
+
+ // Funciones: Es un lugar donde se agrupa código guardado, y que se puede ejecutar las veces que sean necesarias invocándola por su nombre.
+        // Argumentos: son datos que funcionan como una especie de variables locales de las funciones (es decir que sólo responden a ellas)
+        // Return: es la solicitud al intérprete que devuelva un valor en base a los datos volcados.
+
+// If: Función condicional que lo que hace es controlar el flujo de la información, y verterla a discreción para que el intérprete devuelva valores según los parámetros establecidos.
+
+// Valores booleanos: Son valores consignados a la lógica booleana, en donde hay sólo dos respuestas posibles, el "sí" y el "no", la ausencia y la presencia, verdadero o falso, el "on" y "off" de un interruptor, entre otros ejemplos
