@@ -168,7 +168,7 @@ function esVerdadero(valor){
   //si su valor es true y “Soy falso” si su valor es false.
   //Escribe tu código aquí
 
-    if (70 % 7 == 0 && 5*2 == 10) console.log ('Soy verdadero');
+    if (valor >= 72) console.log ('Soy verdadero');
 
     else console.log ('Soy falso')
 
@@ -180,14 +180,11 @@ function tablaDelSeis(){
   //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
   //Escribe tu código aquí   
   
- 
+  for (let i = 0 ; i >= 10 ; i++) {
 
-  for (i = 1 ; i <= 10 ; i++);
+      i*6;
 
-  var mult = 6 * i;
-
-  console.log (mult);
-
+  }
 
 }
 
@@ -207,6 +204,10 @@ function doWhile(numero) {
   //Implementar una función tal que vaya aumentando el valor recibido en 5 hasta un límite de 8 veces
   //Retornar el valor final.
   //Usar el bucle do ... while.
+
+    do ()
+
+
 }
 
 
