@@ -85,11 +85,11 @@ function colors(color) {
     break;
 
     case 'green': 
-      return 'this is green';
+      return 'This is green';
     break;
 
     case 'orange': 
-      return 'this is orange';
+      return 'This is orange';
     break;
 
     default: 
@@ -166,18 +166,22 @@ function operadoresLogicos(num1, num2, num3) {
   //0 no es ni positivo ni negativo. Si alguno de los argumentos es 0, retornar "Error".
   //Si no se cumplen ninguna de las condiciones anteriores, retornar false. 
 
-    if (num1 > num2 && num1 > num3 && num1 > 0) {
-  return 'Número 1 es mayor y positivo';
-   }else if (num1 < 0 || num2 < 0 || num3 < 0) {
-  return 'Hay negativos';
-   }else if (num3 > num1 && num3 > num2) {
-  return num3 + 1;
-   }else if (num1 === 0 || num2 === 0 || num3 === 0) {
-  return 'Error';
-   }else {
-   return 'false';
-   }
-}
+    if (num1 < 0 || num2 < 0 || num3 < 0) {
+    return 'Hay negativos';
+       
+     }else if (num1 === 0 || num2 === 0 || num3 === 0) {
+    return 'Error';
+    
+     } else if (num1 > num2 && num1 > num3 && num1 > 0) {
+    return 'Número 1 es mayor y positivo';
+        
+     } else if (num3 > num1 && num3 > num2) {
+    return num3 + 1;
+            
+     } else {
+     return false;
+     }
+  }
 
 function esPrimo(numero) {
   // Devuelve "true" si "numero" es primo
@@ -186,14 +190,19 @@ function esPrimo(numero) {
   // Pista 2: Puedes resolverlo usando un bucle `for`
   // Nota: Los números 0 y 1 NO son considerados números primos
 
-  for (let i = 1; i <= numero; i++) {
-    if (numero % i == 0 && i != 1 && i != numero) {
-      return false
+  if (numero <= 1) {
+    return false;
+  }
+  
+  for (i = 2 ; i < numero ; i++) {
+
+    if (numero % i === 0) {
+      return false;
     }
 
   }
 
-      return true
+  return true;
 
 }
 
@@ -202,11 +211,12 @@ function esVerdadero(valor){
   //si su valor es true y “Soy falso” si su valor es false.
   //Escribe tu código aquí
 
-    if (valor === ) {
-      return 'Soy verdadero';
+  
 
+  if (valor === true) {
+    return 'Soy verdadero'
   } else {
-      return 'Soy falso';
+    return 'Soy falso'
   }
 
 
@@ -234,10 +244,6 @@ function tablaDelSeis(){
     return tablita;
 }
 
-  resultadoTablaDelSeis = tablaDelSeis();
-
-  console.log (resultadoTablaDelSeis);
-
 
 function tieneTresDigitos(numero){
   //Leer un número entero y retornar true si tiene 3 dígitos. Caso contrario, retorna false.
@@ -256,13 +262,17 @@ function doWhile(numero) {
   //Retornar el valor final.
   //Usar el bucle do ... while.
 
-    let i = 0;
+  let i = 0;
 
-    do {
-      i = i + 5;
+  let num = numero;
 
-    }
-    while (i < )
+  do {
+    i = i + 1;
+    num = num + 5;
+  }
+
+  while (i < 8);
+  return num;
 
 }
 
