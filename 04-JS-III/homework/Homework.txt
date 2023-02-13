@@ -1,0 +1,4 @@
+En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+Array: El array es un tipo de objeto contenedor de elementos que se pueden recorrer, y que están guardados ordenadamente con un índice, 
+al cual se le pueden crear otros o modificar los ya dados.
