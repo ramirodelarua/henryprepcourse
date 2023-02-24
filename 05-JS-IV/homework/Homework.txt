@@ -14,6 +14,14 @@ explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamen
     Propiedades: las propiedades son elementos que caracterizan el objeto. Todas tienen una dupla key/value, siendo el key
 	el nombre de la propiedad y el value, su valor.
 
+	Métodos: son elementos dentro de los objetos que sirven para que el intérprete analice o ejecute
+	lo que en su cuerpo -dado que es una función- suceda.
+
+	Bucle "for...in": es un ciclo de iteración dentro del objeto que con una variable recorre el mismo
+	y con la otra recorre las propiedades, pudiendo así obtener el valor de las mismas.
+
+	Dot notation / Bracket notation: son formas sintácticas de trabajar con objetos,
+	y se utilizan, cada uno con sus expresiones para acceder a las propiedades del objeto.
 	
 
 
