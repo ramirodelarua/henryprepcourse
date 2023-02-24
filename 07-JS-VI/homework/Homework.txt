@@ -1,0 +1,1 @@
+Callback: Es un tipo de función que se pasa como parámetro a otra función, y que desde afuera, ese parámetro/función callback es flexible para que pueda volver a ser llamada con otra utilidad.

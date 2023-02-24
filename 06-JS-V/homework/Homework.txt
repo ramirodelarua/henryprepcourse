@@ -1,0 +1,7 @@
+Prototipos: es una vía por la cual un elemento de javascript le comparte las propiedades a otro.
+
+
+
+
+
+Constructores: es un método que funciona como vía para crear objetos en base a plantillas o "clases". Son funciones, con la diferencia de que a éstas funciones se las ejecuta con la palabra reservada "new" y su key va en mayúscula.
